@@ -1,0 +1,510 @@
+ffmpeg version 2020-10-14-git-6bdfea8d4b-full_build-www.gyan.dev Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-libsnappy --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libdav1d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libglslang --enable-vulkan --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      56. 60.100 / 56. 60.100
+  libavcodec     58.111.100 / 58.111.100
+  libavformat    58. 62.100 / 58. 62.100
+  libavdevice    58. 11.102 / 58. 11.102
+  libavfilter     7. 87.100 /  7. 87.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/aluno/AppData/Local/Temp/KritaFFmpegProgress.BThKYE'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame%04d.png'.
+Reading option '-crf' ... matched as AVOption 'crf' with argument '23'.
+Reading option '-preset' ... matched as AVOption 'preset' with argument 'medium'.
+Reading option '-profile:v' ... matched as option 'profile' (set profile) with argument 'baseline'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'yuv420p'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/AlunosUcp_001.jpg.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/aluno/AppData/Local/Temp/KritaFFmpegProgress.BThKYE.
+[file @ 00000000003d8780] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame%04d.png.
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0000.png' for reading
+[file @ 000000000041c480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000424680] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0001.png' for reading
+[file @ 000000000041c500] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000000041c6c0] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0002.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000000000044b380] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0003.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459140] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0004.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459300] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0005.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000000004594c0] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0006.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459680] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0007.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459840] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0008.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002c26d40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0009.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002c34ac0] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0010.png' for reading
+[file @ 000000000041c5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459a00] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0011.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0012.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0013.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0014.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0015.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0016.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0017.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0018.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0019.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0020.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0021.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0022.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0023.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0024.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0025.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0026.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0027.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0028.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0029.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0030.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0031.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0032.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0033.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0034.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0035.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0036.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0037.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0038.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0039.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0040.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0041.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0042.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0043.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0044.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0045.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0046.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0047.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0048.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0049.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0050.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0051.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0052.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0053.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0054.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0055.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0056.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0057.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0058.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0059.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0060.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0061.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0062.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0063.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0064.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0065.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0066.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0067.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0068.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0069.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0070.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0071.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0072.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0073.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0074.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0075.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0076.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0077.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0078.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0079.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0080.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0081.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0082.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0083.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0084.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0085.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0086.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0087.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0088.png' for reading
+[file @ 0000000000459a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000000459b40] Statistics: 56196 bytes read, 0 seeks
+[image2 @ 0000000000418a40] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame%04d.png':
+  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
+    Stream #0:0, 89, 1/25: Video: png, 1 reference frame, rgba(pc), 1024x580 [SAR 11811:11811 DAR 256:145], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/AlunosUcp_001.jpg.mp4.
+Applying option profile:v (set profile) with argument baseline.
+Applying option pix_fmt (set pixel format) with argument yuv420p.
+Successfully parsed a group of options.
+Opening an output file: D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/AlunosUcp_001.jpg.mp4.
+[file @ 000000000044aa80] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 4 times
+[graph 0 input from stream 0:0 @ 000000000045fec0] Setting 'video_size' to value '1024x580'
+[graph 0 input from stream 0:0 @ 000000000045fec0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000000000045fec0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000000000045fec0] Setting 'pixel_aspect' to value '11811/11811'
+[graph 0 input from stream 0:0 @ 000000000045fec0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000000000045fec0] w:1024 h:580 pixfmt:rgba tb:1/24 fr:24/1 sar:11811/11811
+[format @ 00000000030d7980] Setting 'pix_fmts' to value 'yuv420p'
+[auto_scaler_0 @ 00000000030d63c0] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 00000000030d63c0] w:iw h:ih flags:'bicubic' interl:0
+[format @ 00000000030d7980] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 0000000002ee80c0] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 00000000030d63c0] w:1024 h:580 fmt:rgba sar:11811/11811 -> w:1024 h:580 fmt:yuv420p sar:1/1 flags:0x4
+[libx264 @ 000000000041bec0] using mv_range_thread = 40
+[libx264 @ 000000000041bec0] using SAR=1/1
+[libx264 @ 000000000041bec0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+[libx264 @ 000000000041bec0] profile Constrained Baseline, level 3.1, 4:2:0, 8-bit
+[libx264 @ 000000000041bec0] 264 - core 161 r3018 db0d417 - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=0 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/AlunosUcp_001.jpg.mp4':
+  Metadata:
+    encoder         : Lavf58.62.100
+    Stream #0:0, 0, 1/12288: Video: h264 (libx264), 1 reference frame (avc1 / 0x31637661), yuv420p, 1024x580 [SAR 1:1 DAR 256:145], 0/1, q=-1--1, 24 fps, 12288 tbn, 24 tbc
+    Metadata:
+      encoder         : Lavc58.111.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 46 times
+[libx264 @ 000000000041bec0] frame=   0 QP=11.74 NAL=3 Slice:I Poc:0   I:2368 P:0    SKIP:0    size=9414 bytes
+[libx264 @ 000000000041bec0] frame=   1 QP=16.27 NAL=2 Slice:P Poc:2   I:0    P:26   SKIP:2342 size=235 bytes
+[libx264 @ 000000000041bec0] frame=   2 QP=11.00 NAL=2 Slice:P Poc:4   I:0    P:1    SKIP:2367 size=15 bytes
+[libx264 @ 000000000041bec0] frame=   3 QP=11.00 NAL=2 Slice:P Poc:6   I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=   4 QP=11.00 NAL=2 Slice:P Poc:8   I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=   5 QP=11.00 NAL=2 Slice:P Poc:10  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=   6 QP=11.00 NAL=2 Slice:P Poc:12  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=   7 QP=11.00 NAL=2 Slice:P Poc:14  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=   8 QP=11.00 NAL=2 Slice:P Poc:16  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=   9 QP=11.00 NAL=2 Slice:P Poc:18  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  10 QP=11.00 NAL=2 Slice:P Poc:20  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  11 QP=11.00 NAL=2 Slice:P Poc:22  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  12 QP=11.00 NAL=2 Slice:P Poc:24  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  13 QP=11.00 NAL=2 Slice:P Poc:26  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  14 QP=11.00 NAL=2 Slice:P Poc:28  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  15 QP=11.00 NAL=2 Slice:P Poc:30  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  16 QP=11.00 NAL=2 Slice:P Poc:32  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  17 QP=11.00 NAL=2 Slice:P Poc:34  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  18 QP=11.00 NAL=2 Slice:P Poc:36  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  19 QP=11.00 NAL=2 Slice:P Poc:38  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  20 QP=11.00 NAL=2 Slice:P Poc:40  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  21 QP=11.00 NAL=2 Slice:P Poc:42  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  22 QP=11.00 NAL=2 Slice:P Poc:44  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  23 QP=11.00 NAL=2 Slice:P Poc:46  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  24 QP=11.00 NAL=2 Slice:P Poc:48  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  25 QP=11.00 NAL=2 Slice:P Poc:50  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  26 QP=11.00 NAL=2 Slice:P Poc:52  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  27 QP=11.00 NAL=2 Slice:P Poc:54  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  28 QP=11.00 NAL=2 Slice:P Poc:56  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  29 QP=11.00 NAL=2 Slice:P Poc:58  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  30 QP=11.00 NAL=2 Slice:P Poc:60  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  31 QP=11.00 NAL=2 Slice:P Poc:62  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  32 QP=11.00 NAL=2 Slice:P Poc:64  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  33 QP=11.00 NAL=2 Slice:P Poc:66  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  34 QP=11.00 NAL=2 Slice:P Poc:68  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  35 QP=11.00 NAL=2 Slice:P Poc:70  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  36 QP=11.00 NAL=2 Slice:P Poc:72  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  37 QP=11.00 NAL=2 Slice:P Poc:74  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0089.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  38 QP=11.00 NAL=2 Slice:P Poc:76  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0090.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  39 QP=11.00 NAL=2 Slice:P Poc:78  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0091.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  40 QP=11.00 NAL=2 Slice:P Poc:80  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0092.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  41 QP=11.00 NAL=2 Slice:P Poc:82  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0093.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  42 QP=11.00 NAL=2 Slice:P Poc:84  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0094.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  43 QP=11.00 NAL=2 Slice:P Poc:86  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0095.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  44 QP=11.00 NAL=2 Slice:P Poc:88  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0096.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  45 QP=11.00 NAL=2 Slice:P Poc:90  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0097.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  46 QP=11.00 NAL=2 Slice:P Poc:92  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0098.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  47 QP=11.00 NAL=2 Slice:P Poc:94  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0099.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  48 QP=11.00 NAL=2 Slice:P Poc:96  I:0    P:0    SKIP:2368 size=12 bytes
+[image2 @ 0000000000418a40] Opening 'D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame0100.png' for reading
+[file @ 0000000002dde540] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000000002e17140] Statistics: 56196 bytes read, 0 seeks
+[libx264 @ 000000000041bec0] frame=  49 QP=11.00 NAL=2 Slice:P Poc:98  I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  50 QP=11.00 NAL=2 Slice:P Poc:100 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  51 QP=11.00 NAL=2 Slice:P Poc:102 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  52 QP=11.00 NAL=2 Slice:P Poc:104 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  53 QP=11.00 NAL=2 Slice:P Poc:106 I:0    P:0    SKIP:2368 size=12 bytes
+[out_0_0 @ 0000000000459280] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 000000000041bec0] frame=  54 QP=11.00 NAL=2 Slice:P Poc:108 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  55 QP=11.00 NAL=2 Slice:P Poc:110 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  56 QP=11.00 NAL=2 Slice:P Poc:112 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  57 QP=11.00 NAL=2 Slice:P Poc:114 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  58 QP=11.00 NAL=2 Slice:P Poc:116 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  59 QP=11.00 NAL=2 Slice:P Poc:118 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  60 QP=11.00 NAL=2 Slice:P Poc:120 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  61 QP=11.00 NAL=2 Slice:P Poc:122 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  62 QP=11.00 NAL=2 Slice:P Poc:124 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  63 QP=11.00 NAL=2 Slice:P Poc:126 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  64 QP=11.00 NAL=2 Slice:P Poc:128 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  65 QP=11.00 NAL=2 Slice:P Poc:130 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  66 QP=11.00 NAL=2 Slice:P Poc:132 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  67 QP=11.00 NAL=2 Slice:P Poc:134 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  68 QP=11.00 NAL=2 Slice:P Poc:136 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  69 QP=12.39 NAL=2 Slice:P Poc:138 I:0    P:1    SKIP:2367 size=16 bytes
+[libx264 @ 000000000041bec0] frame=  70 QP=11.00 NAL=2 Slice:P Poc:140 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  71 QP=11.00 NAL=2 Slice:P Poc:142 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  72 QP=11.00 NAL=2 Slice:P Poc:144 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  73 QP=11.00 NAL=2 Slice:P Poc:146 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  74 QP=11.00 NAL=2 Slice:P Poc:148 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  75 QP=11.00 NAL=2 Slice:P Poc:150 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  76 QP=11.00 NAL=2 Slice:P Poc:152 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  77 QP=11.00 NAL=2 Slice:P Poc:154 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  78 QP=11.00 NAL=2 Slice:P Poc:156 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  79 QP=11.00 NAL=2 Slice:P Poc:158 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  80 QP=11.00 NAL=2 Slice:P Poc:160 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  81 QP=11.00 NAL=2 Slice:P Poc:162 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  82 QP=11.00 NAL=2 Slice:P Poc:164 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  83 QP=11.00 NAL=2 Slice:P Poc:166 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  84 QP=11.00 NAL=2 Slice:P Poc:168 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  85 QP=11.00 NAL=2 Slice:P Poc:170 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  86 QP=11.00 NAL=2 Slice:P Poc:172 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  87 QP=11.00 NAL=2 Slice:P Poc:174 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  88 QP=11.00 NAL=2 Slice:P Poc:176 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  89 QP=11.00 NAL=2 Slice:P Poc:178 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  90 QP=11.00 NAL=2 Slice:P Poc:180 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  91 QP=11.00 NAL=2 Slice:P Poc:182 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  92 QP=11.00 NAL=2 Slice:P Poc:184 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  93 QP=11.00 NAL=2 Slice:P Poc:186 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  94 QP=11.00 NAL=2 Slice:P Poc:188 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  95 QP=11.00 NAL=2 Slice:P Poc:190 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  96 QP=11.00 NAL=2 Slice:P Poc:192 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  97 QP=11.00 NAL=2 Slice:P Poc:194 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  98 QP=11.00 NAL=2 Slice:P Poc:196 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame=  99 QP=12.00 NAL=2 Slice:P Poc:198 I:0    P:0    SKIP:2368 size=12 bytes
+[libx264 @ 000000000041bec0] frame= 100 QP=13.00 NAL=2 Slice:P Poc:200 I:0    P:0    SKIP:2368 size=12 bytes
+Not writing 'clli' atom. No content light level info.
+Not writing 'mdcv' atom. Missing mastering metadata.
+frame=  101 fps=0.0 q=-1.0 Lsize=      12kB time=00:00:04.16 bitrate=  24.4kbits/s speed=8.49x    
+[AVIOContext @ 00000000004188c0] Statistics: 0 seeks, 1 writeouts
+video:11kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 10.983264%
+Input file #0 (D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/frame%04d.png):
+  Input stream #0:0 (video): 101 packets read (5675796 bytes); 101 frames decoded; 
+  Total: 101 packets (5675796 bytes) demuxed
+Output file #0 (D:/jean/trablho-ucp-antropofagia/TRABALHO UCP 1/DESENHOS/PERSONAGENS/ALUNOS/MODELO INICIAL E MODELO FINAL/AlunosUcp_001.jpg.mp4):
+  Output stream #0:0 (video): 101 frames encoded; 101 packets muxed (11472 bytes); 
+  Total: 101 packets (11472 bytes) muxed
+101 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000000000044ab80] Statistics: 2 seeks, 4 writeouts
+[libx264 @ 000000000041bec0] frame I:1     Avg QP:11.74  size:  9414
+[libx264 @ 000000000041bec0] frame P:100   Avg QP:11.10  size:    14
+[libx264 @ 000000000041bec0] mb I  I16..4: 94.0%  0.0%  6.0%
+[libx264 @ 000000000041bec0] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.0%  0.0%  0.0%  0.0%  0.0%    skip:100.0%
+[libx264 @ 000000000041bec0] coded y,uvDC,uvAC intra: 4.1% 5.7% 5.2% inter: 0.0% 0.0% 0.0%
+[libx264 @ 000000000041bec0] i16 v,h,dc,p: 97%  1%  3%  0%
+[libx264 @ 000000000041bec0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 49% 21% 15%  1%  3%  5%  2%  2%  2%
+[libx264 @ 000000000041bec0] i8c dc,h,v,p: 94%  2%  3%  0%
+[libx264 @ 000000000041bec0] ref P L0: 98.2%  1.8%
+[libx264 @ 000000000041bec0] kb/s:20.61
